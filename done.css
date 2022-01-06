@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    display: flex;
+    place-content: center;
+}
+
+.container {
+    display: grid;
+    place-content: center;
+}
+
+.thanks p{
+    display: grid;
+    place-items: center;
+}
+
+.thanks {
+    animation-name: flicker;
+    animation-duration: 3s;
+    padding: 10px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flicker {
+    0% {
+        outline: #006AFF;
+        border-color: #006AFF;
+        box-shadow: 0 0 5px hsl(215, 75%, 55%);
+    }
+
+    20% {
+        outline: #006AFF;
+        border-color: #006AFF;
+        box-shadow: 0 0 10px hsl(0, 75%, 55%);
+    } 
+    
+    40% {
+        outline: #006AFF;
+        border-color: #006AFF;
+        box-shadow: 0 0 5px hsl(108, 100%, 29%);
+    }
+    
+    60% {
+        outline: #6d9bdb;
+        border-color: #5f799e;
+        box-shadow: 0 0 10px hsl(0, 53%, 31%);
+    }
+
+    80% {
+        outline: #006AFF;
+        border-color: #006AFF;
+        box-shadow: 0 0 5px hsl(215, 75%, 55%);
+    }
+
+    100% {
+        outline: #006AFF;
+        border-color: #006AFF;
+        box-shadow: 0 0 5px hsl(215, 75%, 55%);
+    }
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/1698b5ca8f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <div class="picture">
+        <img src="image 1.png" alt="">
+    </div>
+    <div class="container">
+        <div class="logout_place">
+            <div class="logout">Logout</div>
+        </div>
+        <div class="num_1_tabview">
+            <div class="verify">
+                <div class="key_">1</div>
+                <div class="word_">Verify Account</div>
+            </div>
+            <div class="social">
+                <div class="key">2</div>
+                <div class="word">Social Handles</div>
+            </div>
+            <div class="verify">
+                <div class="key">3</div>
+                <div class="word">Business Category</div>
+            </div>
+        </div>
+        <div class="num_1">1</div>
+        <div class="step">Step 1/3</div>
+        <div class="verify_text">Verify Account</div>
+        <div class="select">Select a verification method</div>
+        <div class="bvn_pan">
+            <div class="bvn">
+                <input type="radio" name="radio" id="bvn_radio" checked>
+                <label class="bvn_rad" for="bvn_radio" >BVN</label>
+                <input type="radio" class="posi" name="radio" id="pan_radio" >
+                <label class="pan_rad posi" for="pan_radio">Personal Account Number</label>
+                <div class="bvn_radio_appear">
+                    <div class="bvn_details">
+                        <p>Bank Verification Number (11-digits)</p>
+                        <input type="text" name="bvn_number" id="bvn_number">
+                    </div>
+                    <div class="why_bvn">
+                        <div class="lock_logo"><i class="fas fa-lock"></i></div>
+                        <p class="why_text">Why we need your BVN</p>
+                        <div class="appear">
+                            <p class="access_text">We only need access to your:</p>
+                            <div class="details">
+                                <div class="name">
+                                    <i class="fas fa-check"></i>
+                                    <p>Full Name</p>
+                                </div>
+                                <div class="name">
+                                    <i class="fas fa-check"></i>
+                                    <p>Phone Number</p>
+                                </div>
+                                <div class="name">
+                                    <i class="fas fa-check"></i>
+                                    <p>Date of Birth</p>
+                                </div>
+                                <div class="footnote">
+                                    <i class="fas fa-exclamation"></i>
+                                    <p>Your BVN does not give us access to your bank accounts or transactions</p>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="pan_radio_appear">
+                    <div class="acc_no">
+                        <p>Account Number</p>
+                        <input type="text">
+                    </div>
+                    <div class="select_bank">
+                        <p>Select Bank</p>
+                        <select type="text" class="form-control " id="bank">
+                            <option selected></option>
+                            <option value="access">Access Bank</option>
+                            <option value="citibank">Citibank</option>
+                            <option value="diamond">Diamond Bank</option>
+                            <option value="ecobank">Ecobank</option>
+                            <option value="fidelity">Fidelity Bank</option>
+                            <option value="fcmb">First City Monument Bank (FCMB)</option>
+                            <option value="fsdh">FSDH Merchant Bank</option>
+                            <option value="gtb">Guarantee Trust Bank (GTB)</option>
+                            <option value="heritage">Heritage Bank</option>
+                            <option value="Keystone">Keystone Bank</option>
+                            <option value="rand">Rand Merchant Bank</option>
+                            <option value="skye">Skye Bank</option>
+                            <option value="stanbic">Stanbic IBTC Bank</option>
+                            <option value="standard">Standard Chartered Bank</option>
+                            <option value="sterling">Sterling Bank</option>
+                            <option value="suntrust">Suntrust Bank</option>
+                            <option value="union">Union Bank</option>
+                            <option value="uba">United Bank for Africa (UBA)</option>
+                            <option value="unity">Unity Bank</option>
+                            <option value="wema">Wema Bank</option>
+                            <option value="zenith">Zenith Bank</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border_continue">
+            <a href="social_handles.html"><div class="continue">
+                 Continue</div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

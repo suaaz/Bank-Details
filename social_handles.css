@@ -1,0 +1,234 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 10px;
+}
+
+.logout_place {
+    border:none;
+    display: flex;
+    justify-content: end;    
+}
+
+.logout {
+    width: 107px;
+    height: 50px;
+    background: #FF6774;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.num_1_tabview {
+    display: none;
+}
+.num_1 {
+    width: 31px;
+    height: 31px;
+    background: #006AFF;
+    border-radius: 3.1px;
+    color: white;
+    display: grid;
+    place-content: center;
+    margin-top: 76px;
+}
+
+.step {
+    font-size: 13px;
+    color: #A5B4CB;
+    margin-top: 41.51px;
+}
+
+.social_handles {
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 19px;
+}
+
+.input_handles {
+    font-size: 14px;
+    color: #7D8DA7;
+}
+
+.tag {
+    margin-top: 44px;
+    font-size: 12px;
+    color: #141737;
+}
+
+.tags {
+    margin-top: 44px;
+    font-size: 12px;
+    color: #141737;
+}
+
+.tags input {
+    padding-left: 17px;
+    border: 1px solid #E4E9EF;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 100%;
+    height: 54px;
+    color: #7D8DA7;
+    font-size: 12px;
+}
+
+.tag input {
+    padding-left: 17px;
+    border: 1px solid #E4E9EF;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 100%;
+    height: 54px;
+    color: #7D8DA7;
+    font-size: 12px;
+}
+
+::placeholder {
+    color: #7D8DA7;
+}
+
+.border_continue {
+    margin-top: 48px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top:  1px solid #E9EEF4;
+    display: flex;
+    justify-content: end;
+}
+
+.continue {
+    margin-top: 13px;
+    width: 217px;
+    height: 50px;
+    background: #006AFF;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border_continue a {
+    text-decoration: none;
+}
+
+.picture {
+    display: none;
+}
+
+input:focus { 
+    outline: #006AFF;
+    border-color: #006AFF;
+    box-shadow: 0 0 5px hsl(215, 75%, 55%);
+ }
+
+@media screen and (min-width:691px) {
+    .num_1 {
+        display: none;
+    }
+
+    .num_1_tabview {
+        display: flex;
+        margin-top: 48px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom:   1px solid #E9EEF4;
+        padding-bottom: 20px;
+    }
+
+    .verify {
+        display: flex;
+        align-items: center;
+        margin-right: 40px;
+    }
+    
+    .key_ {
+        background: #006AFF;
+        border-radius: 3.1px;
+        width: 31px;
+        height: 31px;
+        color: #FFFFFF;
+        justify-content: center;
+        align-items: center;
+        display:flex;
+        margin-right: 12px;
+    }
+    
+    .word_ {
+        font-weight: 500;
+        font-size: 18px;
+        color: #141737;
+    }
+    
+    .social {
+        display: flex;
+        align-items: center;
+        margin-right: 40px;
+    }
+    
+    .key {
+        border-radius: 3.1px;
+        width: 31px;
+        height: 31px;
+        background: #E4E9EF;
+        justify-content: center;
+        align-items: center;
+        display:flex;
+        margin-right: 12px;
+        color: #A5B4CB;
+    }
+    
+    .key i {
+        color: blue;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .word {
+        color: #A5B4CB;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .insta_twitter {
+        display: flex;
+    }
+
+    .abeg input {
+        width: 50%;
+    }
+
+    .space {
+        margin-left: 100px;
+    }
+    
+    .tags input{
+        width: 130%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
+    .picture {
+        width: 480px;
+        background: #F3E8C9;
+        display: grid;
+        margin-right: 20px;
+        place-content: center;
+    }
+
+}
